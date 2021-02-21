@@ -1,0 +1,43 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch ServiceRegisterApplication",
+      "request": "launch",
+      "mainClass": "org.sid.ServiceRegisterApplication",
+      "projectName": "service-register"
+    },
+    {
+      "type": "java",
+      "name": "Launch ServiceProxyApplication",
+      "request": "launch",
+      "mainClass": "org.sid.ServiceProxyApplication",
+      "projectName": "service-proxy"
+    },
+    {
+      "type": "java",
+      "name": "Launch ServiceConfigApplication",
+      "request": "launch",
+      "mainClass": "org.sid.ServiceConfigApplication",
+      "projectName": "service-config"
+    },
+    {
+      "type": "java",
+      "name": "Launch ServiceCompanyApplication",
+      "request": "launch",
+      "mainClass": "org.sid.ServiceCompanyApplication",
+      "projectName": "service-company"
+    },
+    {
+      "type": "pwa-chrome",
+      "request": "launch",
+      "name": "Launch Chrome against localhost",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
